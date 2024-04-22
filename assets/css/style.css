@@ -715,6 +715,13 @@ section {
 }
 
 /* Combinator selectors -> descendant selector (space) */
+.portfolio .map-wrap {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Combinator selectors -> descendant selector (space) */
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
